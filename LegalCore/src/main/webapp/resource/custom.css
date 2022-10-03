@@ -1,0 +1,73 @@
+header{
+    background: linear-gradient(rgba(0, 119, 255, 0.2),rgba(0, 119, 255, 0.2)), url("banner.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 10px 20px 100px 20px;
+    color: white;
+}
+header img{
+    height: 40px;
+}
+#logo{
+    font-weight: bold;
+    color: black;
+}
+header a{
+    color: white;
+    text-decoration: none;
+}
+header a:hover{
+    color: rgb(24, 24, 24);
+    text-decoration: none;
+}
+#my-nav{
+    background-color: rgba(11, 142, 202,0.5);
+    padding: 8px;
+    border-radius: 5px;
+}
+#my-nav a{
+    margin: 0 10px;
+}
+header h1{
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+header h1>span{
+    font-weight: bold;
+}
+header p{
+    margin-bottom: 30px;
+}
+#c-card{
+    margin-top: -80px;
+    padding: 20px;
+}
+.card:hover{
+    background-color: rgb(15, 123, 211);
+    color: white;
+}
+.c-light-blue-bg{
+    background-color: rgb(169, 212, 230);
+}
+.c-social{
+    color: white;
+    padding: 5px;
+    font-size: 30px;
+}
+.c-img-round{
+    border-radius: 50%;
+}
+#c-top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    color: rgb(15, 123, 211);
+}
+#c-top:hover{
+    color: orange;
+}
+#c-input{
+    background: url("call.png") white no-repeat right;
+    background-size: 20px;
+}
